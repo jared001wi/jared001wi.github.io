@@ -18,6 +18,14 @@ table, td{
   border: 2px solid blue;
 }
 
+
+
+
+.red_solid_border{
+  color: red;
+  border: 3px solid blue;
+}
+
 h2{
   border-radius: 100px;
   padding: 5px;
@@ -25,12 +33,16 @@ h2{
   border: 3px groove blue;  text-align: center;
 }
 
-.middle{
-  text-align: center;
+h3{
+  border: 3px solid blue;
 }
 
+h4{
+  font-family: georgia
+}
 .super_secret{
   color: #f5f5dc;
+  background-color: #f5f5dc;
 }
 
 .b_red{
@@ -42,7 +54,7 @@ h2{
 }
 
 iframe{
-  display: block;
+  margin-bottom: 50px;
   margin: 0 auto;
 }
 
@@ -58,7 +70,12 @@ p{
   padding-left: 3px
 }
 
+a {
+    text-decoration: none ;
+}
+
 a:hover{
+  background-color:	#fff0b3;
   color: #66CCFF;
 }
 
