@@ -5,9 +5,9 @@
 }
 
 body {
+  font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
   background-image: url("bleu.jpg");
   background-size: cover;
-
 }
 
 header {
@@ -16,4 +16,17 @@ header {
   padding-top: 20px;
   text-align: center;
   padding-bottom: 20px
+}
+
+nav {
+  background-color: blue;
+  display: inline-inline-block;
+  border: solid 2px white;
+  padding-top: 3px;
+  padding-bottom: 3px;
+
+}
+
+nav li {
+
 }
