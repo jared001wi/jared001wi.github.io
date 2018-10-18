@@ -19,14 +19,21 @@ header {
 }
 
 nav {
+  position: sticky;
+  top: 0px;
   background-color: blue;
-  display: inline-inline-block;
   border: solid 2px white;
-  padding-top: 3px;
-  padding-bottom: 3px;
+  padding-top: 10 px;
+  padding-bottom: 10px;
 
 }
 
 nav li {
+  display: inline-block;
+  padding-left: 5px;
+}
 
+article {
+  margin-left: 10%;
+  margin-right: 10%
 }
