@@ -23,7 +23,7 @@ nav {
   top: 0px;
   background-color: blue;
   border: solid 2px white;
-  padding-top: 10 px;
+  padding-top: 10px;
   padding-bottom: 10px;
 
 }
@@ -36,4 +36,17 @@ nav li {
 article {
   margin-left: 10%;
   margin-right: 10%
+}
+
+footer{
+  background-color: blue;
+  border: solid 2px white;
+  position: absolute;
+  bottom: 0px;
+  left: 0%;
+  right: 0%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  display: inline-block;
+  align: center;
 }
