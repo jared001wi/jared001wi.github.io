@@ -41,12 +41,16 @@ article {
 footer{
   background-color: blue;
   border: solid 2px white;
-  position: absolute;
+  position: sticky;
   bottom: 0px;
-  left: 0%;
-  right: 0%;
   padding-top: 4px;
   padding-bottom: 4px;
-  display: inline-block;
-  align: center;
+  display: block;
+}
+
+article {
+  border: solid 2px white;
+  padding-left: 5px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
