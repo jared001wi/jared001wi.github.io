@@ -1,6 +1,22 @@
 * {
   margin: 0px;
+
   padding: 0px;
+}
+img{
+  margin-top: 20px;
+}
+
+#marginLeft{
+margin-left: 20px;
+}
+
+#left {
+  /* position: relative; */
+  float: right;
+  left: 400px;
+  position: block;
+  margin: 20px;
 }
 
 body {
@@ -8,7 +24,10 @@ body {
   background-size: cover;
   color: white;
   background-image: url("bleu.jpg");
+  border-spacing:10px;
 }
+
+
 
 header {
   border: solid 2px white;
@@ -33,11 +52,6 @@ nav li {
   padding-left: 5px;
 }
 
-article {
-  margin-left: 10%;
-  margin-right: 15%
-}
-
 footer{
   background-color: blue;
   border: solid 2px white;
@@ -50,8 +64,11 @@ footer{
 }
 
 article {
+  margin-left: 10%;
+  margin-right: 15%;
+  border-spacing: 15px;
   border: solid 2px white;
-  padding-left: 5px;
+  padding-left: 20px;
   border-top-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -63,4 +80,8 @@ a {
 
 nav a{
   color: white;
+}
+
+ol {
+  padding-left: 20px
 }
